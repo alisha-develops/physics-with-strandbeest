@@ -1,7 +1,7 @@
 #include <SDL2/SDL.h>
 #include <emscripten.h>
 
-SDL_Window*   window   = nullptr;
+SDL_Window* window = nullptr;
 SDL_Renderer* renderer = nullptr;
 
 void mainLoop() {
